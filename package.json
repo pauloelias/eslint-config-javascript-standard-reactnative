@@ -1,0 +1,48 @@
+{
+  "name": "@pauloelias/eslint-config-javascript-standard-reactnative",
+  "version": "0.0.3",
+  "description": "ESLint and Prettier config for Reac Native projects.",
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "config",
+    "prettier"
+  ],
+  "author": {
+    "email": "paulo@pauloelias.com",
+    "name": "Paulo Elias",
+    "url": "https://www.pauloelias.com/",
+    "twitter": "@pauloelias"
+  },
+  "homepage": "https://github.com/pauloelias/eslint-config-javascript-standard-reactnative",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pauloelias/eslint-config-javascript-standard-reactnative.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=8.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@pauloelias/eslint-config-javascript-standard-core": "^0.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-standard-jsx": "^6.0.2",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "eslint-plugin-react-native-a11y": "^1.2.0",
+    "prettier": "^1.18.2"
+  },
+  "peerDependencies": {
+    "eslint": "^5",
+    "prettier": "^1"
+  }
+}
