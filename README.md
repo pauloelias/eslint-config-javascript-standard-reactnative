@@ -31,18 +31,18 @@ Installing this package globally allows you to lint and format ad-hoc JavaScript
 2. Install the package and its peer dependencies:
 
 ```sh
-yarn add --dev eslint prettier @pauloelias/eslint-config-javascript-standard-react
+yarn add --dev eslint prettier @pauloelias/eslint-config-javascript-standard-reactnative
 ```
 
 ```sh
-npm install --save-dev eslint prettier @pauloelias/eslint-config-javascript-standard-react
+npm install --save-dev eslint prettier @pauloelias/eslint-config-javascript-standard-reactnative
 ```
 
 3. Create an `.eslintrc` file in the root of your project (alongside your `package.json`) and add the following:
 
 ```json
 {
-  "extends": ["@pauloelias/eslint-config-javascript-standard-react"]
+  "extends": ["@pauloelias/eslint-config-javascript-standard-reactnative"]
 }
 ```
 
@@ -72,11 +72,11 @@ npm run lint:fix
 1. Install the package and its peer dependencies globally:
 
 ```sh
-yarn global add eslint prettier @pauloelias/eslint-config-javascript-standard-react
+yarn global add eslint prettier @pauloelias/eslint-config-javascript-standard-reactnative
 ```
 
 ```sh
-npm install -g eslint prettier @pauloelias/eslint-config-javascript-standard-react
+npm install -g eslint prettier @pauloelias/eslint-config-javascript-standard-reactnative
 ```
 
 2. Add a global `.eslintrc` file:
@@ -90,7 +90,7 @@ Your `.eslintrc` file should look like this:
 
 ```json
 {
-  "extends": ["@pauloelias/eslint-config-javascript-standard-react"]
+  "extends": ["@pauloelias/eslint-config-javascript-standard-reactnative"]
 }
 ```
 
@@ -102,7 +102,7 @@ If you'd like to overwrite eslint or prettier settings, you can add the rules in
 
 ```json
 {
-  "extends": ["@pauloelias/eslint-config-javascript-standard-react"],
+  "extends": ["@pauloelias/eslint-config-javascript-standard-reactnative"],
   "rules": {
     "prettier/prettier": [
       "error",
