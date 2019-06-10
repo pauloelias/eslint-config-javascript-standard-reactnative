@@ -42,7 +42,9 @@
     "prettier": "^1.18.2"
   },
   "peerDependencies": {
+    "@pauloelias/eslint-config-javascript-standard-core": "^0.0.3",
     "eslint": "^5",
+    "eslint-plugin-react": "^7",
     "prettier": "^1"
   }
 }

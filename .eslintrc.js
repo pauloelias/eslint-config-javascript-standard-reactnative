@@ -21,5 +21,5 @@ module.exports = {
     ],
     "react-native-a11y/has-valid-accessibility-role": 1
   },
-  "plugins": ["prettier", "react", "react-hooks", "eslint-plugin-react-native-a11y"]
+  "plugins": ["react", "react-hooks", "eslint-plugin-react-native-a11y"]
 }
