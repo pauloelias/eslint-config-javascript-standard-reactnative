@@ -1,6 +1,6 @@
 # ESLint and Prettier Setup for React
 
-These are the core packages and settings I use for ESLint and Prettier with React.
+These are the core packages and settings I use for ESLint and Prettier with React Native.
 
 They are a slightly opinionated and have been fine-tuned while working with [modern JavaScript](https://javascript.info) and [react](https://reactjs.org). This config can be easily extended to accomodate how you and/or your team work.
 
