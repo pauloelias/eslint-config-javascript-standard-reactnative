@@ -1,6 +1,6 @@
 {
   "name": "@pauloelias/eslint-config-javascript-standard-reactnative",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "ESLint and Prettier config for Reac Native projects.",
   "keywords": [
     "javascript",
